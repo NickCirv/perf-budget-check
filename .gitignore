@@ -1,0 +1,10 @@
+# Test artifacts
+test-dist/
+test-dist-old/
+
+# Generated during runs (optional to commit)
+.perf-history.json
+.perfbudget.json
+
+# Node
+node_modules/

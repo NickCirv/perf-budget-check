@@ -1,0 +1,41 @@
+{
+  "name": "perf-budget-check",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Check JavaScript bundle sizes against performance budgets — fail CI when budgets are exceeded",
+  "bin": {
+    "perf-budget-check": "./index.js",
+    "perfcheck": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "performance",
+    "bundle-size",
+    "ci",
+    "budget",
+    "webpack",
+    "vite",
+    "rollup",
+    "build-tools"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/NickCirv/perf-budget-check",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/perf-budget-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickCirv/perf-budget-check/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
