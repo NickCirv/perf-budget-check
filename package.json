@@ -7,8 +7,11 @@
     "perf-budget-check": "./index.js",
     "perfcheck": "./index.js"
   },
+  "scripts": {
+    "test": "node --test"
+  },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": [
     "developer-tools",
